@@ -14,7 +14,7 @@
   "overlay": {
     "position": {
       "x": 0,
-      "y": 5,
+      "y": 3,
       "alignX": "CENTER",
       "alignY": "TOP",
       "anchorX": "CENTER",
@@ -22,7 +22,7 @@
     },
     "scale": 1.0,
     "color": {
-      "alpha": 80,
+      "alpha": 0,
       "themes": [
         {
           "id": "waila:dark",
