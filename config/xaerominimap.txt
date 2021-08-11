@@ -23,7 +23,7 @@ displayRedstone:true
 deathpoints:true
 oldDeathpoints:false
 distance:1
-showCoords:true
+showCoords:false
 lockNorth:false
 zoom:1
 minimapSize:0
@@ -39,10 +39,10 @@ otherTeamColor:-1
 tamedMobsColor:-1
 mapSafeMode:false
 minimapOpacity:100.0
-waypointsIngameScale:1.0
-waypointsDistanceScale:1.0
-waypointsNameScale:0.8
-waypointsClampDepth:0.0
+waypointsIngameIconScale:0
+waypointsIngameDistanceScale:0
+waypointsIngameNameScale:0
+waypointsIngameCloseScale:1.0
 antiAliasing:true
 blockColours:0
 lighting:true
@@ -51,7 +51,7 @@ dotsStyle:0
 headsScale:1.0
 dotNameScale:1.0
 compassOverWaypoints:false
-showBiome:false
+showBiome:true
 showEntityHeight:true
 showFlowers:true
 keepWaypointNames:false
@@ -86,7 +86,7 @@ tamedMobNames:3
 showLightLevel:0
 renderLayerIndex:1
 crossDimensionalTp:true
-showTime:0
+showTime:1
 biomeColorsVanillaMode:false
 lookingAtAngle:10
 lookingAtAngleVertical:180
@@ -102,7 +102,6 @@ caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
-ignoreHeightmaps:false
 waypointsBottom:false
 minimapShape:0
 lightOverlayType:0
@@ -117,9 +116,10 @@ minimapFrameColor:9
 compassColor:9
 itemFramesOnRadar:false
 showDimensionName:false
-interface:dummy:0:0:false:false:true:false
-interface:dummy:0:135:false:false:false:false
-interface:dummy:120:0:true:false:false:false
+displayNameWhenIconFails:true
 interface:dummy:0:50:true:false:false:false
+interface:dummy:0:10000:true:false:false:false
+interface:dummy:0:0:false:false:true:false
+interface:dummy:0:36:true:false:false:false
 interface:gui.xaero_minimap:0:0:false:false:true:false
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints
