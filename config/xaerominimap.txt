@@ -23,7 +23,7 @@ displayRedstone:true
 deathpoints:true
 oldDeathpoints:false
 distance:1
-showCoords:false
+showCoords:true
 lockNorth:false
 zoom:1
 minimapSize:0
