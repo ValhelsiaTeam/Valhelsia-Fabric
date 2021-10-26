@@ -2,7 +2,7 @@
 	// If plaques should show on the top of the screen.
 	"onTop": true,
 	// The distance from the top or bottom of the screen, in pixels.
-	"distance": 35,
+	"distance": 32,
 	// Hide waila/hwyla/jade popups while plaques are showing.
 	"hideWaila": true,
 	// If plaques should show for task advancements (normal advancements).
