@@ -2,7 +2,7 @@
   "type": "alloy_forgery:forging",
   "inputs": [
     {
-      "tag": "techreborn:lead_ore"
+      "tag": "c:lead_ores"
     }
   ],
   "output": {
