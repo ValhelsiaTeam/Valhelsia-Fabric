@@ -9,6 +9,41 @@ events.listen('recipes', function (event) {
   ], {
     A: 'minecraft:string'
   })
+  event.shaped(Item.of('minecraft:dispenser', 1), [
+    'AAA',
+    'ABA',
+    'ACA'
+  ], {
+    A: 'minecraft:cobblestone',
+    B: 'minecraft:crossbow',
+    C: 'minecraft:redstone'
+  })
+  event.shaped(Item.of('minecraft:chainmail_helmet', 1), [
+    'AAA',
+    'A A'
+  ], {
+    A: 'minecraft:chain'
+  })
+  event.shaped(Item.of('minecraft:chainmail_chestplate', 1), [
+    'A A',
+    'AAA',
+    'AAA'
+  ], {
+    A: 'minecraft:chain'
+  })
+  event.shaped(Item.of('minecraft:chainmail_leggings', 1), [
+    'AAA',
+    'A A',
+    'A A'
+  ], {
+    A: 'minecraft:chain'
+  })
+  event.shaped(Item.of('minecraft:chainmail_boots', 1), [
+    'A A',
+    'A A'
+  ], {
+    A: 'minecraft:chain'
+  })
   
   // Alloy Forgery
   event.shaped(Item.of('alloy_forgery:deepslate_bricks_forge_controller', 1), [
